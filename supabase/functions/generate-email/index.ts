@@ -12,9 +12,9 @@ Deno.serve(async (req) => {
     const LOVABLE_API_KEY = Deno.env.get("LOVABLE_API_KEY");
     if (!LOVABLE_API_KEY) throw new Error("LOVABLE_API_KEY not configured");
 
-    const systemPrompt = `You are an expert email writer. Write a complete, well-structured email in a ${tone} tone. Always include a clear subject line, greeting, body paragraphs, and closing signature.`;
+    const systemPrompt = `You are a professional email writer. Write a complete email that is simple, polite, and well-structured. Always include a subject line, greeting, a clear and structured body, and a professional closing.`;
 
-    const userPrompt = `Purpose: ${purpose}\n\nKey details:\n${details}\n\nWrite the email now.`;
+    const userPrompt = `The user wants a ${tone} email for the following purpose: ${purpose}\n\nDetails: ${details}\n\nWrite the complete email now.`;
 
     const response = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
       method: "POST",
