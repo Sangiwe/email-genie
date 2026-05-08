@@ -8,7 +8,7 @@ import { Card } from "@/components/ui/card";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { toast } from "sonner";
 import { Toaster } from "@/components/ui/sonner";
-import { Mail, Sparkles, Copy, Loader2 } from "lucide-react";
+import { Mail, Sparkles, Copy, Loader2, Inbox } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 
 export const Route = createFileRoute("/")({
@@ -72,7 +72,7 @@ function Index() {
       >
         <div className="mx-auto max-w-4xl px-6 py-16 text-center text-primary-foreground">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/15 backdrop-blur mb-6">
-            <Mail className="w-8 h-8" />
+            <Inbox className="w-8 h-8" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
             AI Email Generator
