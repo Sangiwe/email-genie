@@ -71,8 +71,11 @@ function Index() {
         style={{ background: "var(--gradient-hero)" }}
       >
         <div className="mx-auto max-w-4xl px-6 py-16 text-center text-primary-foreground">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/15 backdrop-blur mb-6">
-            <Inbox className="w-8 h-8" />
+          <div
+            className="inline-flex items-center justify-center w-16 h-16 rounded-2xl mb-6 ring-1 ring-white/30"
+            style={{ background: "var(--gradient-hero)", boxShadow: "var(--shadow-elegant)" }}
+          >
+            <Mail className="w-8 h-8" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
             AI Email Generator
