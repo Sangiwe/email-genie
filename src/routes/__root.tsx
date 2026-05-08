@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Email Generator" },
+      { name: "description", content: "A tool that helps users generate professional emails quickly and easily" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Email Generator" },
+      { property: "og:description", content: "A tool that helps users generate professional emails quickly and easily" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Email Generator" },
+      { name: "twitter:description", content: "A tool that helps users generate professional emails quickly and easily" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a0928ab7-ec14-4713-96c1-46c34f452af6/id-preview-3a833cf4--468fac76-0e86-4867-9895-d171cf558140.lovable.app-1778228516051.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a0928ab7-ec14-4713-96c1-46c34f452af6/id-preview-3a833cf4--468fac76-0e86-4867-9895-d171cf558140.lovable.app-1778228516051.png" },
     ],
     links: [
       {
