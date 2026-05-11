@@ -6,6 +6,7 @@ The AI Email Generator is a simple AI-powered content generation tool designed t
 
 This project was developed as part of the CAPACITI AI Bootcamp Week 2 project on AI Content Generation and Productivity.
 
+Live Demo : https://emailgene.lovable.app/
 ---
 
 ## Features
